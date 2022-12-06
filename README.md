@@ -15,7 +15,10 @@ A simple way of adding a snow effect to page element of haxball
 # 🎥 Screenshots and Videos:
 
 
-[<img src="https://i.ytimg.com/vi/Hc79sDi3f0U/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=dMERpG-hK5I "Now in Android: 55")
+https://user-images.githubusercontent.com/52961754/206045037-fbb7ef8d-af8b-4486-99ae-47bd7d60f5bd.mp4
+
+
+
 ![Ek Açıklama 2022-12-07 015008](https://user-images.githubusercontent.com/52961754/206043696-4a26a0ff-db79-4c47-8a06-3d1bbdd183b8.png)
 ![Ek Açıklama 2022-12-07 014715](https://user-images.githubusercontent.com/52961754/206043715-c78ea4a4-2eef-4511-8c9c-705a0795a6cc.png)
 
