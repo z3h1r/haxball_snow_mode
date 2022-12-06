@@ -1,0 +1,44 @@
+{
+	"manifest_version": 3,
+	"name": "by Z3H1R",
+	"version": "0.1",
+	"description": "A simple way of adding a snow effect to page element of haxball",
+	"icons": {
+    "16": "./assets/z3h1r-16x.png",
+    "32": "./assets/z3h1r-32x.png",
+		"48": "./assets/z3h1r-48x.png",
+		"128": "./assets/z3h1r-128x.png"
+  },
+  "action": {
+    "default_popup": "./index.html",
+    "default_icon": {
+      "16": "./assets/z3h1r-16x.png",
+      "32": "./assets/z3h1r-32x.png",
+			"48": "./assets/z3h1r-48x.png",
+      "128": "./assets/z3h1r-128x.png"
+    }
+  },
+	"commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+U",
+        "mac": "Command+U"
+      }
+    }
+  },
+	"background": {
+	"service_worker": "background.js"
+},
+	"content_scripts": [
+		{
+			"matches": ["https://*.haxball.com/*"],
+			"js": ["content.js"],
+			"all_frames": true
+		}
+	],
+	"web_accessible_resources": [{
+		"resources": ["injected.js"],
+		"matches": ["https://*.haxball.com/*"]
+	}],
+	"permissions": ["activeTab","storage"]
+}
