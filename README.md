@@ -6,6 +6,8 @@ A simple way of adding a snow effect to page element of haxball
 
 **NOT:** `It's not yet published in Chrome Store`
 
+https://user-images.githubusercontent.com/52961754/206046916-b0a5d30e-fd01-4d07-af8c-69ad6c654bcc.mp4
+
 - To install, download the zip file and extract it
 - Turn on developer mode and click on load unpacked under the Chrome extensions menu
 - Then select the path containing our unzipped package.
@@ -19,7 +21,6 @@ https://user-images.githubusercontent.com/52961754/206045037-fbb7ef8d-af8b-4486-
 
 
 
-![Ek Açıklama 2022-12-07 015008](https://user-images.githubusercontent.com/52961754/206043696-4a26a0ff-db79-4c47-8a06-3d1bbdd183b8.png)
 ![Ek Açıklama 2022-12-07 014715](https://user-images.githubusercontent.com/52961754/206043715-c78ea4a4-2eef-4511-8c9c-705a0795a6cc.png)
 
 ---
