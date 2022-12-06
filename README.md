@@ -30,5 +30,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ---
 
 # 🤖 Credits
+![Discord Banner 2](https://discordapp.com/api/guilds/[650668670548443187]/widget.png?style=banner2)
 
 - [@Z3H1R](https://discord.gg/9CPSEcff) - *Programming*
