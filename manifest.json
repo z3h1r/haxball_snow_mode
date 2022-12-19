@@ -1,7 +1,7 @@
 {
 	"manifest_version": 3,
 	"name": "by Z3H1R",
-	"version": "0.1",
+	"version": "2.0",
 	"description": "A simple way of adding a snow effect to page element of haxball",
 	"default_locale": "en",
 	"host_permissions": ["https://*.haxball.com/*"],
