@@ -1,0 +1,56 @@
+#snow-extension-demo-overlay {
+  /* configurable options */
+  --option-color: #dfdfdf;
+  --option-opacity: 0.6;
+}
+
+#snow-extension-demo-overlay {
+  background: transparent;
+  color: var(--option-color);
+  height: 100vh;
+  opacity: var(--option-opacity);
+  pointer-events: none;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100vw;
+  z-index: 99999;
+}
+
+#snow-extension-demo-overlay .snowflake {
+  animation: var(--duration) infinite linear snow-extension-demo-snowfall;
+  position: fixed;
+  transform-origin: top center;
+}
+
+#snow-extension-demo-overlay .snowflake:after {
+  animation: var(--duration) infinite linear snow-extension-demo-snowflake;
+  background: currentColor;
+  content: '';
+  display: block;
+  height: 32px;
+  -webkit-mask-image:url('chrome-extension://__MSG_@@extension_id__/assets/images/snowflake.svg');
+  mask-image:url('chrome-extension://__MSG_@@extension_id__/assets/images/icons/snowflake.svg');
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  transform-origin: center center;
+  width: 32px;
+}
+
+@keyframes snow-extension-demo-snowflake {
+  0% {
+    transform: scale(var(--scale)) translateX(var(--x-offset)) rotate(var(--rotation-start)) ;
+  }
+  100% {
+    transform: scale(var(--scale)) translateX(var(--x-offset)) rotate(var(--rotation-end)) ;
+  }
+}
+
+@keyframes snow-extension-demo-snowfall {
+  0% {
+    transform: translateY(var(--y-offset));
+  }
+  100% {
+    transform: translateY(calc(100vh + 96px));
+  }
+}
