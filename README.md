@@ -20,8 +20,7 @@ https://user-images.githubusercontent.com/52961754/206046916-b0a5d30e-fd01-4d07-
 https://user-images.githubusercontent.com/52961754/206045037-fbb7ef8d-af8b-4486-99ae-47bd7d60f5bd.mp4
 
 
-
-![Ek Açıklama 2022-12-07 014715](https://user-images.githubusercontent.com/52961754/206043715-c78ea4a4-2eef-4511-8c9c-705a0795a6cc.png)
+![1](https://user-images.githubusercontent.com/52961754/208327053-c5b36659-d995-4bfb-b545-f4960abd4ddf.png)
 
 ---
 # ⚠️ Contributing:
